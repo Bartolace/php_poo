@@ -20,8 +20,10 @@ $outroEndereco = new Endereco(
     '378',
 );
 
+$umEndereco->__set('cidade', 'cidade set teste');
+
+//usando __get
 echo $umEndereco->cidade;
-exit();
 
 echo $umEndereco . PHP_EOL;
 echo $outroEndereco;
