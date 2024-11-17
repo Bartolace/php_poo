@@ -23,8 +23,8 @@ $outroEndereco = new Endereco(
 $umEndereco->__set('cidade', 'cidade set teste');
 
 //usando __get
-echo $umEndereco->cidade;
-
+echo $umEndereco->cidade. PHP_EOL;
+//Aplicando o __toString
 echo $umEndereco . PHP_EOL;
 echo $outroEndereco;
 

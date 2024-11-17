@@ -2,6 +2,8 @@
 
 namespace Alura\Banco\Modelo\Funcionario;
 
+use Alura\Banco\Modelo\AcessoPropriedades;
+
 class Desenvolvedor extends Funcionario
 {
     public function sobeDeNivel()

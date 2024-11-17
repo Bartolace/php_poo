@@ -23,5 +23,7 @@ $editorDeVideo = new EditorVideo(
 $autenticador->tentaLogin($editorDeVideo, 'abcd');
 $autenticador->tentaLogin($diretor, 1234);
 
+echo $editorDeVideo->salario;
+
 
 
